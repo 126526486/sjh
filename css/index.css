@@ -1,0 +1,61 @@
+body {
+    background: url(../images/Portrait.jpg) no-repeat;
+}
+
+/*版心 */
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.head .hd img {
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 100px;;
+    border-radius: 50%;
+}
+
+.head .hd p {
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-weight: 700;
+}
+
+.body .nav {
+    padding-top: 30px;
+}
+
+.body .nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.body .nav a {
+    text-align: center;
+    color: rgb(40, 40, 40);
+}
+
+.body .nav a img {
+    width: 80px;
+    height: 80px;
+}
+
+.body .nav a .special {
+    margin-left: 20px;
+}
+
+.body .nav li a:hover {
+    border-bottom: 2px solid gray;
+}
+
+.music iframe {
+    width: 300px;
+    height: 80px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
